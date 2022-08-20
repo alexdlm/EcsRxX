@@ -1,10 +1,10 @@
 ### EcsRxX
 
-Various extensions to EcsRx & related projects.
+Various extensions to [EcsRx](https://github.com/EcsRx/ecsrx) & related projects.
 
 #### SystemsRxX.Infrastructure.Autofac
 
-Autofac DependencyContainer implementation. This is largely so SystemsRx injection works, though you may continue using
+Autofac DependencyContainer implementation. This is largely so [SystemsRx](https://github.com/EcsRx/SystemsRx) injection works, though you may continue using
 IDependencyContainer in your own code if you desire, sticking with the Autofac interfaces seems nicer to me.
 
 ```csharp
