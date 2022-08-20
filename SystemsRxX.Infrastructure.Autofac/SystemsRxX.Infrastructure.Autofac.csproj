@@ -4,9 +4,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>10</LangVersion>
-        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <PackageVersion />
+        <PackageVersion>0.1.$([System.DateTime]::Now.ToString(&quot;yyyyMMdd.HHmmss&quot;))</PackageVersion>
         <Authors>Alex de la Mare</Authors>
         <Description>Autofac IDependencyContainer implementation</Description>
         <Copyright>Copyright (c) Alex de la Mare 2022.</Copyright>
