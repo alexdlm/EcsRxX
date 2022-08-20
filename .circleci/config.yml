@@ -23,6 +23,9 @@ jobs:
       - run:
           name: Test
           command: dotnet test
+      - run:
+          name: Pack
+          command: dotnet pack
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
