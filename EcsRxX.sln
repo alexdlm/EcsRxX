@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcsRxX.ComponentTypeRegistry", "EcsRxX.ComponentTypeRegistry\EcsRxX.ComponentTypeRegistry.csproj", "{B338E7B1-E6AA-4D0E-83D6-B1771F489CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcsRxX.ComponentTypeRegistry.Analyzer", "EcsRxX.ComponentTypeRegistry.Analyzer\EcsRxX.ComponentTypeRegistry.Analyzer.csproj", "{8B3D03F6-4ECB-4CE2-AD76-4CF846150640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemsRxX.Infrastructure.Autofac", "SystemsRxX.Infrastructure.Autofac\SystemsRxX.Infrastructure.Autofac.csproj", "{11E2B371-5E2A-4DC0-AB94-4CBB0C82281C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B338E7B1-E6AA-4D0E-83D6-B1771F489CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B338E7B1-E6AA-4D0E-83D6-B1771F489CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B338E7B1-E6AA-4D0E-83D6-B1771F489CCB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B338E7B1-E6AA-4D0E-83D6-B1771F489CCB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8B3D03F6-4ECB-4CE2-AD76-4CF846150640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3D03F6-4ECB-4CE2-AD76-4CF846150640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3D03F6-4ECB-4CE2-AD76-4CF846150640}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3D03F6-4ECB-4CE2-AD76-4CF846150640}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{11E2B371-5E2A-4DC0-AB94-4CBB0C82281C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E2B371-5E2A-4DC0-AB94-4CBB0C82281C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E2B371-5E2A-4DC0-AB94-4CBB0C82281C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E2B371-5E2A-4DC0-AB94-4CBB0C82281C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal
