@@ -27,7 +27,7 @@ jobs:
           name: Pack
           command: dotnet pack
       - store_artifacts:
-          path: .\SystemsRxX.Infrastructure.Autofac\bin\Debug\SystemsRxX.Infrastructure.Autofac.*nupkg
+          path: .\SystemsRxX.Infrastructure.Autofac\bin\Debug\
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
