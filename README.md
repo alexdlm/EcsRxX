@@ -39,13 +39,6 @@ class MyApplication : SystemsRxApplication {
         Foo = AutofacContainer.Container.Resolve<IFoo>();
     }
 }
-
-AutofacDependendencyContainer container = new AutofacDependendencyContainer();
-
-container.LoadModule(
-
-// container is in build mode, it's ok to bind with
-container.Builder.RegisterType<Foo>.As<IFoo>();
 ```
 
 Alternately, you can pass in your own `ContainerBuilder` and/or `Build` it yourself:
